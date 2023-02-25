@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: arial;
+    background-color: #656464;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.main{
+    height: 80%;
+    width: 80%;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+h6{
+    font-size: 1.3vmax;
+    margin-left: 10px;
+}
+h5{
+    margin-right: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1vmax;
+    margin-right: 3px;
+}
+h5 img{
+    margin-right: 1vmax;
+}
+h1{
+    font-size: 4vmax;
+    letter-spacing: 5px;
+}
+h2{
+    word-spacing: 10px;
+}
+nav{
+    height: 15%;
+    width: 100%;
+    /* background-color: rgb(73, 146, 18); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    padding: 15px;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    padding: 30px;
+    width: 50%;
+    height: 85%;
+}
+.button{
+    padding: 5px;
+    color: royalblue;
+    border-color: #656464;
+    border-radius: 5px;
+    font-family: arial;
+    font-weight: 600;
+}
+span{
+    color: tomato;
+}
+.right{
+    border: none;
+    width: 50%;
+    background-image: url(WhatsApp\ Image\ 2022-09-01\ at\ 12.16.50\ AM.jpeg);
+}
+.arrow{
+    border-radius: 50%;
+    text-align: center;
+    padding: 3px;
+}
+.line1{
+    margin-left: 25px;  
+}
+.line2{
+    margin-left: 27px;
+}
